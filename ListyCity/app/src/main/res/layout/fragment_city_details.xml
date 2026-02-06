@@ -7,6 +7,8 @@
     <EditText
         android:id="@+id/edit_city_name"
         android:hint="Enter city name"
+        android:importantForAutofill="no"
+        android:autofillHints=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
@@ -14,6 +16,8 @@
     <EditText
         android:hint="Enter province"
         android:id="@+id/edit_province"
+        android:importantForAutofill="no"
+        android:autofillHints=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </LinearLayout>

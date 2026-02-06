@@ -1,1 +1,10 @@
 /build
+google-services.json
+
+
+local.properties
+
+
+
+.idea/
+*.log
